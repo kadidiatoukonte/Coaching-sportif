@@ -24,19 +24,19 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body style="background: #fc561f;">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="container">
+  <div class="container" style="background: #ffffff;">
 
     <header>
 
              <div class="d-flex flex-row-reverse bd-highlight">
 
-                 <div class="p-2 bd-highlight"><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                 <div class="p-2 bd-highlight mt-5"><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
 
                     Connexion
 
@@ -118,7 +118,9 @@
 
     <div class="col">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="fixed-top">
+
+      <nav class="navbar navbar-expand-lg navbar-light gris">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -162,6 +164,8 @@
 
     </div>
 
+    </div>
+
   </div>
 
 </header>
@@ -169,20 +173,25 @@
  <h2 class="mt-4">Contact</h2>
 
   <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
-    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4">
+      <div class="row" style="height: 100%;">
 
-      <img src="img/coach.jpg" class="img-fluid" alt="Responsive image">
+        <div class="col-12">
 
-        <p class="mt-2"><i class="fas fa-mobile"></i>:xx xx xx xx xx <br>
+          <div class="calendar mt-4">
 
-           <i class="fas fa-at"></i>: name@bname.com
+           <iframe class="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;height=400&amp;wkst=2&amp;hl=fr&amp;bgcolor=%239999ff&amp;src=29gpk6511fo3kasfsuad3qf3no%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis" style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
 
-        </p>
+          </div>
 
-    </div>
+         </div>
 
-    <div class="col mt-4">
+       </div>
+
+     </div>
+
+    <div class="col mt-5">
 
      <form>
 
@@ -191,7 +200,7 @@
         <input type="text" class="form-control mt-2" placeholder="Name">
 
         <input type="text" class="form-control mt-3" placeholder="Mail">
-      
+
         <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
 
     </div>
@@ -206,21 +215,31 @@
 
 <div class="row">
 
-  <div class="col-6 mt-3">
+  <div class="col">
 
-   <div class="calendar">
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-md-4 mt-5">
 
-       <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=%23contacts%40group.v.calendar.google.com&amp;color=%23691426&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;src=e_2_fr%23weeknum%40group.v.calendar.google.com&amp;color=%236B3304&amp;ctz=Europe%2FParis" style="border:solid 1px #777" width="275" height="270" frameborder="0" scrolling="no"></iframe>
+      <img src="img/coach.jpg" class="img-fluid" alt="Responsive image">
 
-   </div>
+        <p class="mt-2"><i class="fas fa-mobile"></i>:xx xx xx xx xx <br>
+
+           <i class="fas fa-at"></i>: name@bname.com
+
+        </p>
+
+    </div>
 
  </div>
 
-  <div class="col mt-3">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-5">
+
+    <div class="row" style="height: 100%;">
+
+      <div class="col-12">
 
     <div class="maps">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.975134440496!2d3.1164616510382395!3d50.590415479394274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d6f35265a399%3A0x90bd89b34429efcd!2s2+Boulevard+Thomson%2C+59810+Lesquin%2C+France!5e0!3m2!1sen!2sus!4v1532089438175" width="275" height="270" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.975134440496!2d3.1164616510382395!3d50.590415479394274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d6f35265a399%3A0x90bd89b34429efcd!2s2+Boulevard+Thomson%2C+59810+Lesquin%2C+France!5e0!3m2!1sen!2sus!4v1532089438175" frameborder="0" style="border:0" allowfullscreen></iframe>
 
    </div>
 
@@ -228,19 +247,23 @@
 
 </div>
 
+</div>
+
+</div>
+
 <footer>
 
 <hr>
 
-<div class="row">
+<div class="row gris">
 
   <div class="col-8">
 
-  <p>SUIVEZ NOUS</p>
+  <p class="nav-link">SUIVEZ NOUS</p>
 
 </div>
 
-<div class="col-4">
+<div class="col-4 nav-link">
 
   © 2018  Personal sport
 
